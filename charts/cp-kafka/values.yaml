@@ -132,14 +132,5 @@ nodeport:
 ## Zookeeper
 ## ------------------------------------------------------
 cp-zookeeper:
-  ## If true, install the cp-zookeeper chart alongside cp-kafka
-  ## ref: ../cp-zookeeper
-  enabled: true
-  servers: 3
-  persistence:
-    enabled: true
-    dataDirSize: 5Gi
-    dataLogDirSize: 5Gi
-
   ## If the Zookeeper Chart is disabled a URL and port are required to connect
   url: ""
